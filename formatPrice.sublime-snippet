@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<?= Mage::helper("checkout")->formatPrice(${1:\$this->getSubtotal()}) ?>
+]]></content>
+	<tabTrigger>formatprice</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

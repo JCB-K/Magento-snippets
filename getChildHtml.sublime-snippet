@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<?= \$this->getChildHtml("${1}") ?>
+]]></content>
+	<tabTrigger>childhtml</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+{{store url="${1}"}}
+]]></content>
+	<tabTrigger>storeurl</tabTrigger>
+	<scope>text.plain</scope>
+</snippet>

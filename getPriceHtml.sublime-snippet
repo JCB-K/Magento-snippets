@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<?= \$this->getPriceHtml(${1:\$_product}) ?>
+]]></content>
+	<tabTrigger>pricehtml</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

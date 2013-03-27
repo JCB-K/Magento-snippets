@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<?= Mage::app()->getStore()->getName() ?>
+]]></content>
+	<tabTrigger>storename</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

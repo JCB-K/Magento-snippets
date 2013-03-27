@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<?= \$this->getLayout()->createBlock("cms/block")->setBlockId("${1}")->toHtml() ?>
+]]></content>
+	<tabTrigger>createblock</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

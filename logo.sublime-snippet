@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<a class="logo" href="<?= \$this->getUrl("") ?>" title="<?= \$this->getLogoAlt() ?>">
+	<strong><?= \$this->getLogoAlt() ?></strong>
+	<img src="<?= \$this->getLogoSrc() ?>" alt="<?= \$this->getLogoAlt() ?>" />
+</a>
+]]></content>
+	<tabTrigger>logo</tabTrigger>
+	<scope>text.html</scope>
+</snippet>
