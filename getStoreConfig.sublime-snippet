@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+Mage::getStoreConfig("${1:module}/${2:system_group}/${3:attribute_code}")
+]]></content>
+	<tabTrigger>storeconfig</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

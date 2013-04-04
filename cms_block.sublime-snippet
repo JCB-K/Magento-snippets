@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<block type="cms/block" name="${1:block_name}">
+	<action method="setBlockId"><block_id>$1</block_id></action>
+</block>
+]]></content>
+	<tabTrigger>cmsblock</tabTrigger>
+	<scope>text.xml, source.xml</scope>
+</snippet>
