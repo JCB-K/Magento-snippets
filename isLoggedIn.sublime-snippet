@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<?php if(\$this->helper("customer")->isLoggedIn()): ?>
+	${1}
+<?php endif; ?>
+]]></content>
+	<tabTrigger>ifloggedin</tabTrigger>
+	<scope>text.html</scope>
+</snippet>
