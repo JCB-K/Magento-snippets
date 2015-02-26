@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<?= \$_product->get${1}() ?>
+<?php \$_product->get${1}() ?>
 ]]></content>
 	<tabTrigger>product</tabTrigger>
 	<scope>text.html</scope>

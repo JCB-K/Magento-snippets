@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<?= \$this->__("${1}") ?>
+<?php echo \$this->__("${1}") ?>
 ]]></content>
 	<tabTrigger>trans</tabTrigger>
 	<scope>text.html</scope>
